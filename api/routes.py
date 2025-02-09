@@ -1,8 +1,8 @@
 from fastapi import APIRouter, Depends, HTTPException
 from fastapi.security import OAuth2PasswordRequestForm
-from models import Book
-from database.config import collection_name
-from database.schemas import list_serial
+from .models import Book
+from .database.config import collection_name
+from .database.schemas import list_serial
 from bson import ObjectId
 from security import encode_token, get_current_user  
 import os
