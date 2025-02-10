@@ -10,7 +10,7 @@ if not os.getenv("SECRET_KEY"):
     load_dotenv()
 
 SECRET_KEY = os.getenv("SECRET_KEY")
-EXP_TIME_MIN = os.getenv("EXP_TIME_MIN")
+EXP_TIME_MIN = int(os.getenv("EXP_TIME_MIN"))
 
 oauth_scheme = OAuth2PasswordBearer(tokenUrl="token")
 
