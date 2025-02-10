@@ -1,7 +1,7 @@
 # My Book Tracker
 
 A web application that allows you to track the books you are currently reading. 
-Inspired by [Kayce Basques](https://kayce.basqu.es/).
+Inspired by <a href="https://kayce.basqu.es/" target="_blank" rel="noopener noreferrer">Kayce Basques</a>.
 
 ## Technologies Used
 
