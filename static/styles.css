@@ -9,11 +9,11 @@ body, html {
     flex-direction: column;
 }
 h1 {
-    margin-block: 1rem;
+    margin-block: 14px;
     font-size: 30px;
 }
 h2 {
-    margin-block: 1rem;
+    margin-block: 14px;
     font-size: 26px;
 }
 body {
@@ -23,7 +23,7 @@ p {
     margin-bottom: 6px;
 }
 main {
-    margin-top: 1rem;
+    margin-top: 16px;
     flex-grow: 1;
 }
 footer {
@@ -37,6 +37,9 @@ footer p {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 
+}
+header, main {
+    padding-right: 14px;
 }
 .github-icon {
     width: 20px;
