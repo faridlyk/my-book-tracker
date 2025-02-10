@@ -1,6 +1,7 @@
 # My Book Tracker
 
-A web application that allows you to track the books you are currently reading.
+A web application that allows you to track the books you are currently reading. 
+Inspired by [Kayce Basques](https://kayce.basqu.es/).
 
 ## Technologies Used
 
